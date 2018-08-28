@@ -1,29 +1,36 @@
-class Piece 
+
+
+
+class Piece
+
+  attr_reader :color
+  attr_accessor :pos, :board
+
   def initialize(color, board, pos)
-    @color = color 
-    @board = board 
-    @pos = pos 
-  end 
-  
+    @color = color
+    @board = board
+    @pos = pos
+  end
+
   def to_s
-  end 
-  
+  end
+
   def empty?
-  end 
-  
+  end
+
   def valid_moves
-  end 
-  
+  end
+
   def pos=(val)
   end
-  
+
   def symbol
-    
+
   end
-  
+
   private
-  
+
   def move_into_check?(end_pos)
-    
+
   end
-end 
+end
