@@ -23,3 +23,13 @@ class King < Piece
   end
   
 end
+
+module Stepable 
+  def moves 
+  end 
+  
+  private 
+  #does this take an arg?
+  def move_diffs
+  end 
+end 

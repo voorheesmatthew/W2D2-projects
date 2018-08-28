@@ -12,3 +12,6 @@ class NullPiece < Piece
     
   end
 end
+
+module Singleton
+end 
