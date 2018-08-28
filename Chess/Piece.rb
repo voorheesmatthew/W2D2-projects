@@ -1,6 +1,4 @@
 
-
-
 class Piece
 
   attr_reader :color
@@ -25,7 +23,7 @@ class Piece
   end
 
   def symbol
-
+    
   end
 
   private

@@ -1,7 +1,14 @@
-class Knight < Piece
-  include Stepable
-  def symbol
+require_relative "piece.rb"
 
+class Knight < Piece
+  # include Stepable
+
+  def initialize(color, board, pos)
+    super
+  end
+
+  def symbol
+    "♘"
   end
 
   protected
@@ -12,10 +19,15 @@ class Knight < Piece
 end
 
 class King < Piece
-  include Stepable
+
+  def initialize(color, board, pos)
+    super
+  end
+
+  # include Stepable
 
   def symbol
-
+    "♔"
   end
 
   protected
@@ -26,6 +38,11 @@ class King < Piece
 end
 
 module Stepable
+
+  def initialize(color, board, pos)
+    super
+  end
+
   def moves
   end
 

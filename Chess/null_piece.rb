@@ -13,6 +13,6 @@ include Singleton
   end
 
   def symbol
-
+    " "
   end
 end

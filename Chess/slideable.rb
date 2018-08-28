@@ -1,8 +1,10 @@
+require_relative "piece.rb"
+
 class Rook < Piece
-  include Slideable
+  # include Slideable
 
   def symbol
-
+    "♖"
   end
 
   protected
@@ -13,10 +15,10 @@ class Rook < Piece
 end
 
 class Bishop < Piece
-  include Slideable
+  # include Slideable
 
   def symbol
-
+    "♗"
   end
 
   protected
@@ -27,10 +29,10 @@ class Bishop < Piece
 end
 
 class Queen < Piece
-  include Slideable
+  # include Slideable
 
   def symbol
-
+    "♕"
   end
 
   protected
