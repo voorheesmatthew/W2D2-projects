@@ -2,7 +2,7 @@ require_relative 'null_piece'
 require_relative "pawn"
 require_relative "stepable"
 require_relative "slideable"
-
+# Testing an update
 class Board
 
   attr_accessor :rows
