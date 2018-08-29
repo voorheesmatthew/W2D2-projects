@@ -107,7 +107,7 @@ module Slideable
   DIAGONAL_DIRS = []
 
   def move_dirs
-    return Rook if HORIZONTAL_DIRS
+    
   end
 
   def grow_unblocked_moves_in_dir(dx, dy)
